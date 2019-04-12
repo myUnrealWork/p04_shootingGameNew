@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.22",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "p04_shootingGameNew",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
