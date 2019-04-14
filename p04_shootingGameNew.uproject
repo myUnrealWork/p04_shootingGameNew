@@ -7,7 +7,10 @@
 		{
 			"Name": "p04_shootingGameNew",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule"
+			]
 		}
 	]
 }
