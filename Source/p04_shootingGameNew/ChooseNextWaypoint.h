@@ -13,5 +13,14 @@ UCLASS()
 class P04_SHOOTINGGAMENEW_API UChooseNextWaypoint : public UBTTaskNode
 {
 	GENERATED_BODY()
-	
+
+	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
+
+protected:
+	UPROPERTY(EditAnyWhere, Category = "Blackboard")
+		struct FBlackboardKeySelector IndexKey;	
+
+	UPROPERTY(EditAnyWhere, Category = "Blackboard")
+		struct FBlackboardKeySelector WaypointKey;
+
 };
